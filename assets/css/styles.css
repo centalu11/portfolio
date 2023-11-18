@@ -822,3 +822,37 @@ footer.entry-meta .meta-in {
     max-width: 75%;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-collapse .navbar-nav > li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .navbar-collapse .navbar-nav > li:not(:last-child) {
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .navbar-collapse .navbar-nav > li > a {
+    display: block;
+    width: 100%;
+    padding: 10px 0; /* Adjust padding as needed */
+    align-items: center;
+  }
+
+  .navbar-collapse .navbar-nav > .dropdown > .dropdown-toggle > .dropdown-toggle-icon{
+    float: right;
+  }
+
+  .sidebar-right > .nav {
+    text-align: center;
+  }
+}
