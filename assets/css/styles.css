@@ -806,7 +806,19 @@ footer.entry-meta .meta-in {
   /* padding: 20px; */
 }
 
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .client-logo {
   max-width: 100%; /* Ensure the logo doesn't exceed its container */
   height: auto; /* Maintain the aspect ratio of the logo */
+}
+
+@media (max-width: 991px) {
+  .client-logo {
+    max-width: 75%;
+  }
 }
