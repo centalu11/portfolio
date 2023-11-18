@@ -797,3 +797,16 @@ footer.entry-meta .meta-in {
     max-width: 1080px;
   }
 }
+
+.clients-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 auto; */
+  /* padding: 20px; */
+}
+
+.client-logo {
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio of the logo */
+}
