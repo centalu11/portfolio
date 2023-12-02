@@ -1,4 +1,7 @@
 jQuery(document).ready(function($) {
+	$('.carousel').carousel({
+		interval: 3000,
+	});
 
 	var my_nav = $('.navbar-sticky'); 
 	// grab the initial top offset of the navigation 
